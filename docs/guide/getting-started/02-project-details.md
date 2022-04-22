@@ -38,7 +38,31 @@ The Endpoint and API Key provide the configuration details necessary to access t
 ### Deployment Configuration
 
 The trained model needs to be deployed to make it available for real-time inference via the API. This section allows for the deployment type, specification and initial number of instances to be set.
->Performance testing of your model is recommended to understand the best specification and number of instances to be deployed to support your workloads
+> Performance testing of your model is recommended to understand the best specification and number of instances to be deployed to support your workloads
 
 ### Schedules
 Although the deployed service will auto scale as demand increases, the most effecient operation can be achieved by scheduling scaling events in advance of known demand peaks and troughs. This eliminates any lag in performance from an auto scaling event as additional instances are being started. Where the demand profile is understood, this can be replicated in the scaling schedule to ensure the correct capacity is in place in advance of demand changes. This leaves the auto scaling capability to handle unexpected events and demand peaks  
+
+## Users
+
+Add users to the project in this section - additional users can be project administrators with full access, or annotators with access to maintain the dataset, but not to train or deploy the model.
+
+## Unlabeled Data
+
+This section allows a user to import a file of raw text for labellling, the anotator can review this file and select the appropriate label for each text item and push good data to the training dataset
+
+## Dataset
+
+The key input to model training is a labelled dataset. In this section, the data set can be reviewed, edited, exported to csv or imported from a csv file
+> Although dataset versions are captured for each training iteration for audit, we recommend exporting the dataset to a source control respository solution for richer configuration management and the implementation of change control
+
+## Evaluation Dataset
+
+It is possible to maintain a static evaluation dataset to help to monitor model performance over time. During trainig the model evaluates its own performance by splitting out a random portion of the training data for dynamic evaluation - the size of this train / test split is controled via Configuration 
+> We recommend the use of a static evaluation dataset a traing / test split of 90% training for large text classificatio models
+The static evaluation set is reserved for evaluation (never used for training) as part of each training job and gives the ability to baseline and measure improvements in model accuracy. The outputs of model evaluation (dynamic and staic) are available in the job details view
+
+## Labels
+
+The labels section provides a summary of all the labels used for classificaiton in the model. Labels can be added and edited here (with changes being pushed to the dataset). It is also possible to add meta-data to labels to provide additional grouping or categorisation without needing to create a new model. Metadata can be imported and exported
+> We recommend that meta-data is maintained in a source control respository solution for richer configuration management and the implementation of change control
