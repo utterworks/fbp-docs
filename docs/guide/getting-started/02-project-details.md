@@ -1,13 +1,13 @@
 # Project Details
 
-Once the project has been created, click on the project name to manage the project details. 
+Once the project has been created, click on the project name to configure and administer the project. 
+
+## Home
+
 The Home tab gives a summary of the details and is the place to initiate model training when a data set has been created or imported. 
 Initially the model is in a state of “UNTRAINED” 
 
 ![Project details](../img/project-details/project-details-01.png)
-
-## Home
-
 
 ## Configuration
 
@@ -25,6 +25,11 @@ In the configuration it is also possible to select the instance type to be used 
 ## Deployment Configuration
 
 The Deployment Configuration section includes the ability to export a Swagger definition of the API that can be used to perform real time inference from the trained model  
+
+<video autoplay muted loop width="740" controls>
+  <source src="../video/conversation_quickstart2.m4v" type="video/mov"/>
+  Your browser does not support the video tag.
+</video>
 
 ### API Details
 
