@@ -27,7 +27,7 @@ In the configuration it is also possible to select the instance type to be used 
 The Deployment Configuration section includes the ability to export a Swagger definition of the API that can be used to perform real time inference from the trained model  
 
 <video autoplay muted loop width="740" controls>
-  <source src="../video/deploy_config.mov" type="video/mov"/>
+  <source src="../video/deploy_config.mp4" type="video/mp4"/>
   Your browser does not support the video tag.
 </video>
 
