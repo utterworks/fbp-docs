@@ -17,7 +17,7 @@ The configuration section holds the hyper-parameters for model training and para
 
 The configuration options include the ability to select an underlying model architecture (typically a trade-off between size, performance and accuracy), add a pre-trained language model (to improve accuracy in a specific domain) and set other training hyper-parameters. Typically, these parameters can be left at their default values. Once changes are made, select CONFIRM or CANCEL.
 
-<video autoplay muted loop width="740" controls>
+<video autoplay muted loop width="750" controls>
   <source src="../video/test.mp4" type="video/mp4"/>
   Your browser does not support the video tag.
 </video>
@@ -29,7 +29,7 @@ In the configuration it is also possible to select the instance type to be used 
 
 The Deployment Configuration section includes the ability to export a Swagger definition of the API that can be used to perform real time inference from the trained model  
 
-<video autoplay muted loop width="740" controls>
+<video autoplay muted loop width="760" controls>
   <source src="../video/deployment_config.mp4" type="video/mp4"/>
   Your browser does not support the video tag.
 </video>
