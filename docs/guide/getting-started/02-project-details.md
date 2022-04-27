@@ -17,7 +17,10 @@ The configuration section holds the hyper-parameters for model training and para
 
 The configuration options include the ability to select an underlying model architecture (typically a trade-off between size, performance and accuracy), add a pre-trained language model (to improve accuracy in a specific domain) and set other training hyper-parameters. Typically, these parameters can be left at their default values. Once changes are made, select CONFIRM or CANCEL.
 
-![Project configuration](../img/project-details/project-configuration-02.png)
+<video autoplay muted loop width="740" controls>
+  <source src="../video/test.mp4" type="video/mp4"/>
+  Your browser does not support the video tag.
+</video>
 
 In the configuration it is also possible to select the instance type to be used for the training job
 >Larger spec instance types will complete trainig more quickly, but will cost more per training run. It is also possible to choose to use "Spot" instances for training, if these are available then they can greatly reduce training cost - but a word of warning, if the trainig job is very long running, there is a risk that the Spot instance gets reclaimed before the job is finished
