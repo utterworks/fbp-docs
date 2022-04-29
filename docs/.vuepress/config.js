@@ -54,12 +54,17 @@ module.exports = {
           ]
         },
         {
-          title: 'User Guide',
+          title: 'Take a Tour',
           children: [ 
-            '/guide/getting-started/01-create-new-project',
             '/guide/getting-started/02-project-details',
             '/guide/getting-started/03-project-operations'
-
+          ],
+          initialOpenGroupIndex: -1 
+        },
+        {
+          title: 'User Guide',
+          children: [ 
+            '/guide/getting-started/01-create-new-project'
           ],
           initialOpenGroupIndex: -1 
         }
