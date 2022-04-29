@@ -7,7 +7,10 @@ New projects are created using the <b>New Project</b> button in the projects lis
 
 The new project needs a name (no spaces), a meaningful description and a project type. Current available types are Text classification, Token classification (coming soon), and Language model fine tuning. This guide will cover a text classification project type. N.B Intent is a text classification model
 
-![New project dialog screen](../img/new-project/new-project-02.png)
+<video autoplay muted loop width="740" controls>
+  <source src="../video/new-fbp-project.mp4" type="video/mp4"/>
+  Your browser does not support the video tag.
+</video>
 
 On successful creation the project will be available in your project list with your role on the project set to 'OWNER - ADMIN'.
 
