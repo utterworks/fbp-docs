@@ -65,7 +65,8 @@ module.exports = {
           title: 'User Guide',
           children: [ 
             '/guide/user-guide/01-create-new-project',
-            '/guide/user-guide/02-import-a-dataset'
+            '/guide/user-guide/02-import-a-dataset',
+            '/guide/user-guide/03-maintain-deployment-config'
           ],
           initialOpenGroupIndex: -1 
         }
