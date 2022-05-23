@@ -66,7 +66,7 @@ module.exports = {
           children: [ 
             '/guide/user-guide/01-create-new-project',
             '/guide/user-guide/02-import-a-dataset',
-            '/guide/user-guide/03-maintain-deployment-config'
+            '/guide/user-guide/03-maintain-deployment-configuration'
           ],
           initialOpenGroupIndex: -1 
         }
