@@ -29,10 +29,7 @@ In the configuration it is also possible to select the instance type to be used 
 
 The Deployment Configuration section includes the ability to export a Swagger definition of the API that can be used to perform real time inference from the trained model  
 
-<video autoplay muted loop width="740" controls>
-  <source src="../video/deployment_config.mp4" type="video/mp4"/>
-  Your browser does not support the video tag.
-</video>
+![Deployment configuration](../imp/project-details/deployment-configuration.png)
 
 ### API Details
 
@@ -62,7 +59,7 @@ The key input to model training is a labelled dataset. In this section, the data
 ## Evaluation Dataset
 
 It is possible to maintain a static evaluation dataset to help to monitor model performance over time. During trainig the model evaluates its own performance by splitting out a random portion of the training data for dynamic evaluation - the size of this train / test split is controled via Configuration 
-> We recommend the use of a static evaluation dataset a traing / test split of 90% training for large text classificatio models
+> We recommend the use of a static evaluation dataset and a training / test split of 90% training for large text classification models
 The static evaluation set is reserved for evaluation (never used for training) as part of each training job and gives the ability to baseline and measure improvements in model accuracy. The outputs of model evaluation (dynamic and staic) are available in the job details view
 
 ## Labels

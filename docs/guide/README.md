@@ -24,7 +24,7 @@ Built on top of our cutting edge open-source library [fast-bert](https://github.
 
 1. Discover new labels from unlabeled data
 
-2. Accelarate labeling of data by clustering data together using semantic similarity
+2. Accelerate labeling of data by clustering data together using semantic similarity
 
 3. Use natural language generation to generate additional utterances for a label
 
@@ -35,7 +35,7 @@ Built on top of our cutting edge open-source library [fast-bert](https://github.
 
 2. Change misclassified items and add them to the dataset.  Fine-tune the model with new data for continuous improvement.
 
-3. Accelarate labeling of existing/new labels based on predicted production data using semantic similarity.
+3. Accelerate labeling of existing/new labels based on predicted production data using semantic similarity.
 
 
 ### Collaborative 
