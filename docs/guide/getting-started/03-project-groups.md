@@ -1,5 +1,5 @@
 # Project Groups
-
+![project groups](../img/project-groups/project-groups.png)  
 ## Inference Groups
 Inference groups are used to group projects together into a single API endpoint that will allow a single text input to be processed by multiple project models in parallel. Use the group id in the url path to invoke the group endpoint. Inference from each project is returned in the response in a section named for the value you give each project as it is added to the group 
 ## CI/CD Groups

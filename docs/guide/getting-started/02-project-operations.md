@@ -5,7 +5,7 @@ The annotations section is where additional training data can be reviewed and an
 ![annotations](../img/project-operations/annotations.png)
 
 ## Batch Inference
-The batch inference section allows a large unlabeled dataset to be run through the model in a way that won't impact production operations and in a way that maximises performance. In input file is imported and a model version and instance type can be selected. It is also possible to use Spot instance here.
+The batch inference section allows a large unlabeled dataset to be run through the model in a way that won't impact production operations and maximises performance. In input file is imported and a model version and instance type can be selected. It is also possible to use Spot instance here.
 ![batch inference](../img/project-operations/batch-inference.png)
 
 ## Inference Test Bed
