@@ -29,7 +29,7 @@ In the configuration it is also possible to select the instance type to be used 
 
 The Deployment Configuration section includes the ability to export a Swagger definition of the API that can be used to perform real time inference from the trained model  
 
-![Deployment configuration](../imp/project-details/deployment-configuration.png)
+![Deployment configuration](../img/project-details/deployment-configuration.png)
 
 ### API Details
 
