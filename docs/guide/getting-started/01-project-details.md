@@ -37,7 +37,7 @@ The Endpoint and API Key provide the configuration details necessary to access t
 
 ### Deployment Configuration
 
-The trained model needs to be deployed to make it available for real-time inference via the API. This section allows for the deployment type, specification and initial number of instances to be set.
+The trained model needs to be deployed to make it available for real-time inference via the API. This section allows for the deployment type, specification and initial number of instances to be set. [More Info](../user-guide/03-maintain-deployment-configuration.md#deployment-configuration)
 > Performance testing of your model is recommended to understand the best specification and number of instances to be deployed to support your workloads
 
 ### Schedules
@@ -46,6 +46,7 @@ Although the deployed service will auto scale as demand increases, the most effe
 ## Users
 
 Add users to the project in this section - additional users can be project administrators with full access, or annotators with access to maintain the dataset, but not to train or deploy the model.
+![Users](../img/project-details/users.png)
 
 ## Unlabeled Data
 
@@ -54,6 +55,8 @@ This section allows a user to import a file of raw text for labellling, the anot
 ## Dataset
 
 The key input to model training is a labelled dataset. In this section, the data set can be reviewed, edited, exported to csv or imported from a csv file
+![dataset](../img/project-details/dataset.png)
+
 > Although dataset versions are captured for each training iteration for audit, we recommend exporting the dataset to a source control respository solution for richer configuration management and the implementation of change control
 
 ## Evaluation Dataset
@@ -65,4 +68,6 @@ The static evaluation set is reserved for evaluation (never used for training) a
 ## Labels
 
 The labels section provides a summary of all the labels used for classificaiton in the model. Labels can be added and edited here (with changes being pushed to the dataset). It is also possible to add meta-data to labels to provide additional grouping or categorisation without needing to create a new model. Metadata can be imported and exported
+![labels](../img/project-details/labels.png)
+
 > We recommend that meta-data is maintained in a source control respository solution for richer configuration management and the implementation of change control
