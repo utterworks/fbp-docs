@@ -4,14 +4,14 @@ Once the project has been created, click on the project name to configure and ad
 
 ## Home
 
-The Home tab gives a summary of the details and is the place to initiate model training when a data set has been created or imported. 
+The Home tab gives a summary of project details and is the place to initiate model training and deployment - once a data set has been created or imported. 
 Initially the model is in a state of “UNTRAINED” 
 
 ![Project details](../img/project-details/project-details-01.png)
 
 ## Configuration
 
-The configuration section holds the hyper-parameters for model training and parameters for the training runtime environment to be used. These parameters can be changed with the EDIT link.
+The configuration section holds the hyper-parameters for model training and the parameters for the training runtime environment to be used. These parameters can be changed with the EDIT link.
 
 ![Project configuration](../img/project-details/project-configuration-01.png)
 
@@ -23,7 +23,7 @@ The configuration options include the ability to select an underlying model arch
 </video>
 
 In the configuration it is also possible to select the instance type to be used for the training job
->Larger spec instance types will complete trainig more quickly, but will cost more per training run. It is also possible to choose to use "Spot" instances for training, if these are available then they can greatly reduce training cost - but a word of warning, if the trainig job is very long running, there is a risk that the Spot instance gets reclaimed before the job is finished
+>Larger spec instance types will complete trainig more quickly, but will cost more per training run. It is also possible to choose to use "Spot" instances for training, if these are available then they can greatly reduce training cost - but a word of warning, Spot instance are only available if there is spare capacity - this is unlikely to be the case at time of high demand. If the training job is not time critical it can be launched using Spot and will retry until a Spot instance is available - the job will retry for up to 12 hours 
 
 ## Deployment Configuration
 
