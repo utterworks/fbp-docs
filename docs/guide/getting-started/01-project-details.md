@@ -41,7 +41,7 @@ The trained model needs to be deployed to make it available for real-time infere
 > Performance testing of your model is recommended to understand the best specification and number of instances to be deployed to support your workloads
 
 ### Schedules
-Although the deployed service will auto scale as demand increases, the most effecient operation can be achieved by scheduling scaling events in advance of known demand peaks and troughs. This eliminates any lag in performance from an auto scaling event as additional instances are being started. Where the demand profile is understood, this can be replicated in the scaling schedule to ensure the correct capacity is in place in advance of demand changes. This leaves the auto scaling capability to handle unexpected events and demand peaks  
+Although the deployed service will auto scale as demand increases, the most effecient operation can be achieved by scheduling scaling events in advance of known demand peaks and troughs. This eliminates any lag in performance from an auto scaling event as additional instances are being started. Where the demand profile is understood, this can be replicated in the scaling schedule to ensure the correct capacity is in place in advance of demand changes. This leaves the auto scaling capability to handle unexpected events and demand peaks. [More Info](../user-guide/03-maintain-deployment-configuration.md#schedules)  
 
 ## Users
 
