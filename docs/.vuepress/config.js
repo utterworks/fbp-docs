@@ -56,9 +56,10 @@ module.exports = {
         {
           title: 'Take a Tour',
           children: [ 
-            '/guide/getting-started/01-project-details',
-            '/guide/getting-started/02-project-operations',
-            '/guide/getting-started/03-project-groups'
+            '/guide/getting-started/01-dashboard',
+            '/guide/getting-started/02-project-details',
+            '/guide/getting-started/03-project-operations',
+            '/guide/getting-started/04-project-groups'
           ],
           initialOpenGroupIndex: -1 
         },
