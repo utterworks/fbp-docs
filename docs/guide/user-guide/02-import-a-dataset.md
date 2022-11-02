@@ -1,4 +1,4 @@
-# Maintain a Dataset
+# Maintain a dataset
 The dataset forms the key artefact for language model training - these are the examples that you train the model with that allow it to make generalisations used to perform accurate inference on text it has never seen before - the real power of Machine Learning and NLP.  
 
 ## Import from a file
@@ -13,6 +13,6 @@ The dataset can be maintained in a number of ways, including being managed exter
 
 >If you are using excel to edit the csv file, please review the resulting file in a text editor. Excel supports multiple csv formats, so please ensure the file is a simple comma delimited pair of text and label with each item on a new line (and ensure there is no hidden blank line at the end of the file). The column headings "text" and "label" are required.
 
-## Create in the App
+## Create in the app
 
-## Add from Operational Data
+## Add from operational data

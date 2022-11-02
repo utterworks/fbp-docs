@@ -1,4 +1,4 @@
-# Project Details
+# Project details
 
 Once the project has been created, click on the project name to configure and administer the project. 
 
@@ -25,17 +25,17 @@ The configuration options include the ability to select an underlying model arch
 In the configuration it is also possible to select the instance type to be used for the training job
 >Larger spec instance types will complete trainig more quickly, but will cost more per training run. It is also possible to choose to use "Spot" instances for training, if these are available then they can greatly reduce training cost - but a word of warning, Spot instance are only available if there is spare capacity - this is unlikely to be the case at time of high demand. If the training job is not time critical it can be launched using Spot and will retry until a Spot instance is available - the job will retry for up to 12 hours 
 
-## Deployment Configuration
+## Deployment configuration
 
 The Deployment Configuration section includes the ability to export a Swagger definition of the API that can be used to perform real time inference from the trained model  
 
 ![Deployment configuration](../img/project-details/deployment-configuration.png)
 
-### API Details
+### API details
 
 The Endpoint and API Key provide the configuration details necessary to access the inference API securely
 
-### Deployment Configuration
+### Deployment configuration
 
 The trained model needs to be deployed to make it available for real-time inference via the API. This section allows for the deployment type, specification and initial number of instances to be set. [More Info](../user-guide/03-maintain-deployment-configuration.md#deployment-configuration)
 > Performance testing of your model is recommended to understand the best specification and number of instances to be deployed to support your workloads
@@ -48,7 +48,7 @@ Although the deployed service will auto scale as demand increases, the most effe
 Add users to the project in this section - additional users can be project administrators with full access, or annotators with access to maintain the dataset, but not to train or deploy the model.
 ![Users](../img/project-details/users.png)
 
-## Unlabeled Data
+## Unlabeled data
 
 This section allows a user to import a file of raw text for labellling, the anotator can review this file and select the appropriate label for each text item and push good data to the training dataset
 
@@ -59,7 +59,7 @@ The key input to model training is a labelled dataset. In this section, the data
 
 > Although dataset versions are captured for each training iteration for audit, we recommend exporting the dataset to a source control respository solution for richer configuration management and the implementation of change control
 
-## Evaluation Dataset
+## Evaluation dataset
 
 It is possible to maintain a static evaluation dataset to help to monitor model performance over time. During trainig the model evaluates its own performance by splitting out a random portion of the training data for dynamic evaluation - the size of this train / test split is controled via Configuration 
 > We recommend the use of a static evaluation dataset and a training / test split of 90% training for large text classification models

@@ -1,5 +1,5 @@
 # Administration
 
-## User Administration
+## User administration
 
-## Project Administration
+## Project administration

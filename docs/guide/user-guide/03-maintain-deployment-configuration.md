@@ -1,5 +1,5 @@
-# Maintain Deployment Configuration
+# Maintain deployment configuration
 
-## Deployment Configuration
+## Deployment configuration
 
 ## Schedules

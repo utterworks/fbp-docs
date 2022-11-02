@@ -1,5 +1,8 @@
 # Dashboard
 
+![Dashboard](../img/dashboard/dashboard.png)
+## Signing in
+
 ## Project Types
 
 ### Text classification
