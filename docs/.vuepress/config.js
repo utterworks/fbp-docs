@@ -69,7 +69,8 @@ module.exports = {
             '/guide/user-guide/01-create-new-project',
             '/guide/user-guide/02-import-a-dataset',
             '/guide/user-guide/03-maintain-deployment-configuration',
-            '/guide/user-guide/04-administration'
+            '/guide/user-guide/04-administration',
+            '/guide/user-guide/05-training-a-model'
           ],
           initialOpenGroupIndex: -1 
         }

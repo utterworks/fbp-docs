@@ -1,6 +1,6 @@
 # Project details
 
-Once the project has been created, click on the project name to configure and administer the project. 
+Clicking on a project name opens up the project details section - this is where the project user configures and administers the project. 
 
 ## Home
 

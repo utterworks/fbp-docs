@@ -1,12 +1,12 @@
-# Dashboard
-The dashboard is the main section of the application. It shows all the projects a user has access to - with the ability to filter this view based on certain criteria. A platform administrator is able to toggle on a view that allows them to see all projects in an environment.
+# Project dashboard
+The project dashboard is the main landing page of the application. It shows all the projects a user has access to - with the ability to filter this view based on certain criteria. A platform administrator is able to toggle on a view that allows them to see all projects in an environment.
 ![Dashboard](../img/dashboard/dashboard.png)
 ## Signing in
 When first accessing FBP (working title), the front page of the application presents the "Projects" link in the top right hand side. 
 ![Front Page](../img/dashboard/main_screen.png)
 
 This will take you to the login prompt where you will use your user name and password to access the application. 
-> On first login you will be prompted to change the temporary password you were provided
+> N.B the platform admin is responsible for creating user accounts - once this has been done a user will receive an onboarding email with their login details and a temporary password. On first login the new user will be prompted to change the temporary password.
 
 ![Login](../img/dashboard/login.png)
 
